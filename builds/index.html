@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waitlist Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body class="bg-amber-50">
+    <div class="min-h-screen px-6 py-4 flex flex-col gap-16 md:px-10 md:py-7 lg:px-16">
+        <header class="flex justify-between">
+            <div class="flex items-center justify-center gap-3">
+                <img src="Assets/Logo.svg" alt=""/>
+                <button class="bg-gradient-to-r from-orange-400 to-red-400 px-2 py-2 rounded-2xl text-white text-xs">Hosterr is hiring!</button>
+            </div>
+            <div>
+                <ul class="hidden lg:flex lg:justify-between items-center gap-4 font-lato text-gray-400">
+                    <li>
+                        <a href="#">Plans</a>
+                    </li>
+                    <li>
+                        <a href="#">Find Domain</a>
+                    </li>
+                    <li>
+                        <a href="#">Why Hosterr</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="hidden lg:flex justify-between items-center font-lato">
+                    <li>
+                        <a href="#" class="text-gray-400 font-lato">Sign In</a>
+                        <button class="btn">Join Wishlist</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <main class="lg:flex ">
+            <div class="flex items-center justify-center lg:flex-1 order-2 lg:justify-end">
+                <img src="Assets/Blue Shape.svg" alt="" class="h-64 -rotate-45 md:h-72 lg:h-96"/>
+                <img src="Assets/Pink Shape.svg" alt="" class="absolute h-64 -rotate-[30deg] md:h-72 lg:h-96"/>
+                <img src="Assets/Purple Shape.svg" alt="" class="absolute h-64 -rotate-[15deg] md:h-72 lg:h-96"/>
+                <img src="Assets/Hero Image (Model).png" alt="" class="absolute h-64 md:h-72 lg:h-96"/>
+            </div>
+            <div class="space-y-4 mt-14 lg:flex-1 order-1">
+               <h1 class="text-4xl font-bold leading-tight font-playfair">Host your website in the next 5 minutes</h1>
+               <p class="font-lato text-gray-400">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages</p>
+               <form action="" class="flex flex-col gap-3 md:flex-row">
+                    <input type="email" placeholder="Enter e-mail address" class="rounded-md px-4 py-3 placeholder:text-gray-400">
+                    <button class="bg-blue-800 text-white rounded-md px-4 py-3 font-medium font-lato">Join the Waitlist</button>
+               </form> 
+               <div class="flex gap-3">
+                 <img src="Assets/Checkmark.svg" alt=""/>
+                 <p class="font-lato text-gray-400">No spam, ever. Unsubscribe anytime.</p>
+               </div>
+            </div>
+        </main>
+        <footer class="flex flex-col gap-10">
+            <ul class="flex gap-3 font-lato text-gray-400">
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">Twitter</a>
+                </li>
+            </ul>
+            <div class="flex flex-row justify-between">
+                <img src="Assets/Help Avatar.svg" alt=""/>
+            </div>
+            <div>
+                <p class="font-playfair">Have any questions?</p>
+                <a href="#" class="font-lato">Talk to a specialist</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
